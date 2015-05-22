@@ -2,6 +2,7 @@ from django.forms import widgets
 from django.contrib.auth.models import User
 
 from rest_framework import serializers
+
 from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
 
 
